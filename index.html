@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h1>CSS Snippet Cheatsheet</h1>
+      <h2>Ever have trouble recalling the exact syntax for your favorite CSS 
+        code? Give it a permanent home and add it to this page! Select any
+         snippet below and it'll automatically select all of
+          the code for you to copy.
+      </h2>
+      
+    </header>
+
+    <main>
+      <section class="card">
+        <header>Flexbox Row</header>
+        <pre><code>
+            .row { 
+            display: flex: 
+            flex-direction: row; 
+            flex-wrap: wrap; 
+        }
+        </code>
+        </pre>
+      </section>
+      <section class="card">
+        <header>Flexbox Column</header>
+        <pre><code>
+          .column { 
+          display: flex; 
+          flex-direction: column 
+          }
+          </code>
+          </pre>
+      </section>
+      <section class="card">
+        <header>CSS Grid Layout</header>
+        <pre><code>
+            .grid { 
+            display: grid; 
+            width: 100%; 
+            grid-template-columns: 
+            repeat(12, 1fr); 
+            } 
+            </code>
+        </pre>
+      </section>
+      <section class="card">
+        <header>Linear Gradients</header>
+        <pre><code>
+            .linear-gradient-background {
+            background-image: linear-gradient( 
+            rgba(232, 102, 236, 0.3) 0% 
+            rgba(232, 102, 236, 0.6) 100% 
+            ); 
+          } 
+          </code>
+        </pre>
+      </section>
+      <section class="card">
+        <header>Box Transition Glow</header>
+        <pre><code>
+          .code-card .card-header {
+          border-radius: 8px;
+          transition: all 0.5s ease-in-
+          out}
+        </code>
+        </pre>
+      </section>
+      <section class="card">
+        <header>Overlay Card with Title</header>
+        <pre><code>
+          .card-header {
+          position: relative;
+          margin-top: -20px;
+          }
+          
+        </code>
+        </p>
+      </section>
+    </main>
+  </body>
+
+</html>
